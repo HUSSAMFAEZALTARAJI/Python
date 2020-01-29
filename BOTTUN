@@ -1,0 +1,13 @@
+from tkinter import*
+root = Tk()
+e = Entry(root,width=50)
+e.pack()
+def mycleck():
+    Hello = "Hello" +e.get() ,"In software World"
+    mylabel = Label(root, text=Hello)
+    mylabel.pack()
+
+mybutton = Button(root, text="Enter your name" , command=mycleck )
+mybutton.pack()
+
+root.mainloop()
