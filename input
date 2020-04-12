@@ -1,0 +1,9 @@
+# Name =str(input('please , What is your name : '))
+# Age =int(input('please , tell as your age :  '))
+# print(Name,Age)
+
+
+# Birthday = int(input('please , enter your birthday : '))
+# Year = int(input('please , enter the year : '))
+# Myage = Year - Birthday
+# print(Myage)
